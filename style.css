@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* ### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    background-color:  hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    
+}
+
+.main-container, 
+.thank-you{
+    width: 400px;
+    text-align: left;
+    padding: 1.5rem;
+    background-color:hsl(213, 19%, 18%) ;
+    border-radius: 20px;
+    
+     
+}
+button{
+    font-family: inherit;
+}
+
+.main-container img{
+    background-color:hsl(213, 20%, 22%) ;
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.main-container h1{
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.main-container p{
+    color:hsl(216, 12%, 54%);
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1.5rem;
+}
+
+.main-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 14px;
+    margin-bottom: 1.8rem;   
+}
+
+.main-container li button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border-style: none;
+    background-color:hsl(213, 20%, 22%) ; 
+    color:hsl(216, 12%, 54%) ;    
+}
+.main-container li button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.main-container li button:focus{
+    background-color:  hsl(217, 12%, 63%);
+    color: white;
+}
+
+.main-container .btn-submit{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-style: none;
+    text-transform: uppercase;
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    
+}
+
+.main-container .btn-submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    text-align: center;
+}
+.thank-you img{ 
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.thank-you .banner{
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    background-color: hsl(213, 20%, 22%) ;
+    width: max-content;
+    margin: auto;
+    padding: 5px 15px 3px 15px;
+    border-radius: 15px;
+    text-align: center;
+    color:hsl(25, 97%, 53%); ;   
+    margin-bottom: 2rem; 
+}
+
+.thank-you .thank{
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+    letter-spacing: 0.08rem;
+    line-height: 1rem; 
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.thank-you .note{
+    margin: 0.5rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+}
