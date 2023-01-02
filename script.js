@@ -21,7 +21,7 @@ function rating(e) {
 function submiting(e) {
   maincard.remove();
   ratevalue.innerText = `You selected ${getRatefromLS()} out of 5 `;
-  thnkcard.style.display = "initial";
+  thnkcard.style.display = "block";
 }
 
 function getRatefromLS() {

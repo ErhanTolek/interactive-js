@@ -44,9 +44,7 @@ body{
     text-align: left;
     padding: 1.5rem;
     background-color:hsl(213, 19%, 18%) ;
-    border-radius: 20px;
-    
-     
+    border-radius: 20px;   
 }
 button{
     font-family: inherit;
